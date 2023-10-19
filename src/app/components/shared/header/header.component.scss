@@ -2,7 +2,7 @@
   min-height: 100vh;
   /* overflow-y: hidden; */
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),
-    url(../../../../assets/Header.png);
+    url(/assets/Header.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -118,6 +118,7 @@
   outline: 0.7px dashed #ccc;
   outline-offset: -4px;
   transition: 0.3s outline-offset cubic-bezier(0.34, 0, 0.52, 0.91);
+  cursor: pointer;
 }
 
 .active:hover {
